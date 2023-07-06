@@ -8,7 +8,7 @@ import java.util.HashMap;
 @RestController
 public class ClientController {
 
-    @GetMapping("/client")
+    @GetMapping("/internal/clients/service")
     HashMap<String, Object> getClients() {
         HashMap<String, Object> hm = new HashMap<>();
         hm.put("id", 1);
